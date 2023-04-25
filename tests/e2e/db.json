@@ -1,0 +1,26 @@
+{
+	"j5vvm2b": {
+    "code": 0,
+    "msg": "success",
+    "data": {
+        "ws": {
+            "puppeteer": "ws://127.0.0.1:51446/devtools/browser/8c0a4ed4-62ac-408c-b1bb-171674d218d5",
+            "selenium": "127.0.0.1:51446"
+        },
+        "debug_port": "51446",
+        "webdriver": "C:\\Users\\HP\\AppData\\Roaming\\adspower_global\\cwd_global\\chrome_108\\chromedriver.exe"
+    }
+	},
+	"j69fq2b": {
+		"code": 0,
+		"msg": "success",
+		"data": {
+			"ws": {
+				"puppeteer": "ws://127.0.0.1:3669/devtools/browser/0710abb3-8357-4cc0-9353-4a32e410577a",
+				"selenium": "127.0.0.1:3669"
+			},
+			"debug_port": "3669",
+			"webdriver": "C:\\Users\\HP\\AppData\\Roaming\\adspower_global\\cwd_global\\chrome_108\\chromedriver.exe"
+		}
+	}
+}

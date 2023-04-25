@@ -1,0 +1,12 @@
+{
+	"code": 0,
+	"msg": "success",
+	"data": {
+		"ws": {
+			"puppeteer": "ws://127.0.0.1:39812/devtools/browser/befcf6cb-4a25-4646-9297-f860eab78042",
+			"selenium": "127.0.0.1:39812"
+		},
+		"debug_port": "39812",
+		"webdriver": "C:\\Users\\USER\\AppData\\Roaming\\adspower_global\\cwd_global\\chrome_108\\chromedriver.exe"
+	}
+}

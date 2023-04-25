@@ -1,0 +1,3 @@
+/node_modules
+/tests/e2e/db/*
+/tests/e2e/screenshotsFb/*

@@ -1,0 +1,50 @@
+{
+	"name": "pptr-project",
+	"version": "1.0.0",
+	"description": "Automated software testing with pappeteer",
+	"main": "index.js",
+	"scripts": {
+		"test:example": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/example.test.js",
+		"test:like2": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e/Like2.test.js",
+		"test:likeFb": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e/likeFb.test.js",
+		"test:like4": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e/Like4.test.js",
+		"test:like5": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e/like5.test.js",
+		"test:follow1": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e/follow1.test.js",
+		"test:follow2": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e/follow2.test.js",
+		"test:LikeFb": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e/LikeFb.test.js",
+		"test:FllwFb": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e/FllwFb.test.js",
+		"test:CmntFb": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e/CmntFb.test.js --args",
+		"test:CmntFb2": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e/CmntFb2.test.js --args",
+		"test:Full": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e/Full.test.js",
+		"supplay": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e/supplay.js",
+		"test:shareFbpost": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e/shareFbpost.test.js",
+		"test:Fllww": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e/Fllww.test.js",
+		"test:shareNow": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e/shareNow.test.js",
+		"test:shareStory": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e/shareStory.test.js",
+		"test:tikFllw": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e3e/tikFllw.test.js",
+		"test:CmntTest": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e/CmntTest.test.js",
+		"test:fllwPages": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e/fllwPages.test.js",
+		"test:fllwPeople": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e/fllwPeople.test.js",
+		"test:report": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e/reportPost.test.js",
+		"test:reportPage": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e/reportPage.test.js",
+		"test:reportUser": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests/e2e/reportUser.test.js"
+	},
+	"keywords": [
+		"Puppeteer",
+		"Mocha",
+		"Chai",
+		"Automation"
+	],
+	"author": "KO",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^1.3.4",
+		"chai": "^4.3.7",
+		"express": "^4.18.2",
+		"mocha": "^10.2.0",
+		"prettier": "^2.8.4",
+		"prompt-sync": "^4.2.0",
+		"puppeteer": "^18.0.5",
+		"yargs": "^17.7.1"
+	}
+}
